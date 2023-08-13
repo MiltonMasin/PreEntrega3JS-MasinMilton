@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* Colores */
+:root {
+    --color-bg-primary: #f0ece3;
+    --color-bg-secondary: #d1ccc0;
+    --color-text: #333;
+    --color-btn-primary: #8e705d;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--color-bg-secondary);
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: var(--color-btn-primary);
+  }
+  
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    color: var(--color-text);
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .tituloprod {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    background-color: var(--color-bg-secondary);
+    text-align: center;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--color-btn-primary);
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .precio {
+    display: block;
+    font-size: 18px;
+    color: var(--color-btn-primary);
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-btn-primary);
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6b5748;
+  }
+  
+  .cart-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .cart-total {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  
+
+  /* Estilos para el carrito */
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para los botones */
+  .cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .clear-cart {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .buy-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
